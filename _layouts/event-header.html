@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+{% comment %}{% endcomment %}
+{%- assign event_id = page.event_id -%}
+
+{% comment %}{% endcomment %}
+{%- assign event = site.data.events | where: "id", event_id | first -%}
+
+{% if event %}
+  <div class="initial-content">
+    <div class="page__hero--overlay"
+      style="background-image: url('{{ event.image_path | relative_url }}');">
+      <div class="wrapper">
+        <h1 id="page-title" class="page__title" itemprop="headline">
+          {{ event.title }}
+        </h1>
+        
+        {% comment %}{% endcomment %}
+        <p class="page__lead">
+            <strong>Tarih:</strong> {{ event.date }} <br>
+            <strong>Yer:</strong> {{ event.location }}
+        </p>
+        <p>{{ event.description }}</p>
+
+        {% comment %}{% endcomment %}
+        <p><a href="{{ event.link | relative_url }}" class="btn btn--light-outline btn--large">Kayıt Ol</a></p>
+
+      </div>
+    </div>
+  </div>
+{% else %}
+  <div class="initial-content">
+    <h1>Hata: {{ page.event_id }} ID'li etkinlik bulunamadı.</h1>
+    <p>Lütfen _data/events.yml dosyasını ve sayfa ayarlarınızı kontrol edin.</p>
+  </div>
+{% endif %}
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="{{ event.title | default: page.title | default: site.title }}">
+    <meta itemprop="description" content="{{ event.description | default: page.excerpt }}">
+    
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+</div>
