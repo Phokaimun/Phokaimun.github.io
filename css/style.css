@@ -31,47 +31,78 @@ ul {
     list-style: none;
 }
 
-/* --- Header & Navigation --- */
-/* Mevcut .navbar kuralını bununla değiştirin */
+/* --- Header & Navigation --- *//* --- Header & Navigation (YENİ KODLAR) --- */
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 5%;
-    background-color: rgba(0, 0, 0, 0.3); /* Yarı saydam siyah arka plan */
-    backdrop-filter: blur(10px); /* Cam efekti için bulanıklaştırma */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /* Temel Konumlandırma ve Arka Plan */
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    /* Flexbox ile Hizalama */
+    display: flex;
+    justify-content: space-between; /* Logo ve hashtag'i iki uca yaslar */
+    align-items: center;
+
+    /* Yüksekliği Azaltma */
+    padding: 0.75rem 5%; /* Dikey padding'i azalttık */
 }
 
-/* Navbardaki linklerin rengini de açık yapalım */
-.nav-links a {
-    font-weight: 700;
-    transition: color 0.3s ease;
-    color: var(--text-light); /* Link rengi açık */
-}
-
-/* Aktif/hover link rengini ana mavi yapalım */
-.nav-links a:hover, .nav-links a.active {
-    color: var(--primary-blue);
-}
-
-/* Logo rengini de güncelleyelim */
-.logo a {
+/* Logo Stili */
+.navbar .logo a {
     font-weight: 900;
     font-size: 1.5rem;
-    color: var(--text-light); /* Logo rengi açık */
+    color: var(--text-light);
+    transition: color 0.3s ease;
 }
 
-.logo a:hover {
+/* Navigasyon Linkleri Stili */
+.navbar .nav-links {
+    display: flex; /* Linkleri yatayda sıralar */
+    justify-content: center;
+    gap: 2.5rem; /* Linkler arası boşluk */
+}
+
+.navbar .nav-links a {
+    font-weight: 700;
+    color: var(--text-light);
+    transition: color 0.3s ease;
+    padding: 0.5rem 0;
+}
+
+/* Aktif/Hover Link Stili */
+.navbar .nav-links a:hover,
+.navbar .nav-links a.active {
     color: var(--primary-blue);
 }
+
+/* Hashtag Stili */
+.navbar .hashtag {
+    font-weight: 700;
+    color: #aaa;
+}
+
 .hashtag {
     font-weight: 700;
-    color: #888;
+    border-bottom: 1px solid #453886;
+    color: #453886;
+    padding-bottom: .25em;
+    text-decoration: none;
+}
+
+.hashtag:hover {
+    color:#2196f3; 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
 }
 
 /* --- Hero Section (Homepage) --- */
