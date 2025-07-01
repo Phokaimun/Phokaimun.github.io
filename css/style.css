@@ -17,8 +17,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    color: var(--text-dark);
-    background-color: var(--background-light);
+    color: var(--text-light); /* Varsayılan metin rengi açık oldu */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg') no-repeat center center/cover;
+    background-attachment: fixed; /* Arka planın kaymamasını sağlar */
 }
 
 a {
@@ -31,39 +32,43 @@ ul {
 }
 
 /* --- Header & Navigation --- */
+/* Mevcut .navbar kuralını bununla değiştirin */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
-    background-color: var(--background-light);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.3); /* Yarı saydam siyah arka plan */
+    backdrop-filter: blur(10px); /* Cam efekti için bulanıklaştırma */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
 }
 
-.logo a {
-    font-weight: 900;
-    font-size: 1.5rem;
-    color: var(--primary-blue);
-}
-
-.nav-links {
-    display: flex;
-    gap: 2rem;
-}
-
+/* Navbardaki linklerin rengini de açık yapalım */
 .nav-links a {
     font-weight: 700;
     transition: color 0.3s ease;
+    color: var(--text-light); /* Link rengi açık */
 }
 
+/* Aktif/hover link rengini ana mavi yapalım */
 .nav-links a:hover, .nav-links a.active {
     color: var(--primary-blue);
 }
 
+/* Logo rengini de güncelleyelim */
+.logo a {
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: var(--text-light); /* Logo rengi açık */
+}
+
+.logo a:hover {
+    color: var(--primary-blue);
+}
 .hashtag {
     font-weight: 700;
     color: #888;
@@ -75,10 +80,9 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: var(--text-light);
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg') no-repeat center center/cover;
+    color: var(--text-light);
 }
 
 .hero-content h1 {
@@ -108,20 +112,28 @@ ul {
     padding: 8rem 5% 4rem 5%; /* top padding to be below fixed header */
 }
 
-.page-header {
-    text-align: center;
-    margin-bottom: 3rem;
-}
 
+/* Sayfa başlıkları artık doğrudan koyu arka plan üzerinde olacağı için rengi açık olmalı */
 .page-header h1 {
     font-size: 3rem;
     font-weight: 900;
-    color: var(--primary-blue);
+    color: var(--text-light); /* Renk açık oldu */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Okunurluk için gölge */
+}
+.letters-page .page-header .subtitle-text,
+.page-container .page-header p {
+    color: #ddd; /* Alt başlık rengi de açık */
 }
 
+/* İçerik bölümünü yarı saydam bir kart yapıyoruz */
 .content-section {
     max-width: 900px;
     margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.95); /* Yarı saydam beyaz */
+    color: var(--text-dark); /* Kart içindeki metinler koyu renk */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .content-section h2 {
