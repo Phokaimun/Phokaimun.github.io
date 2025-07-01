@@ -1,0 +1,191 @@
+/* --- General Setup & Variables --- */
+:root {
+    --primary-blue: #0d6efd;
+    --dark-blue: #004a99;
+    --text-light: #f8f9fa;
+    --text-dark: #212529;
+    --background-light: #fff;
+}
+
+/* --- Basic Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--background-light);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* --- Header & Navigation --- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: var(--background-light);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo a {
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: var(--primary-blue);
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: var(--primary-blue);
+}
+
+.hashtag {
+    font-weight: 700;
+    color: #888;
+}
+
+/* --- Hero Section (Homepage) --- */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--text-light);
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg') no-repeat center center/cover;
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content .tagline {
+    font-size: 1.2rem;
+}
+
+/* --- Generic Page Styles (Apply, Committees, etc.) --- */
+.page-container {
+    padding: 8rem 5% 4rem 5%; /* top padding to be below fixed header */
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--primary-blue);
+}
+
+.content-section {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* --- Specific Page Elements --- */
+.btn-disabled {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #ccc;
+    color: #666;
+    border-radius: 5px;
+    cursor: not-allowed;
+    text-align: center;
+}
+
+.committee-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.committee-card {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.committee-card h3 {
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+
+/* --- Footer --- */
+footer {
+    background-color: var(--primary-blue);
+    color: var(--text-light);
+    padding: 1.5rem 5%;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.socials a {
+    font-weight: 700;
+    transition: opacity 0.3s;
+}
+
+.socials a:hover {
+    opacity: 0.8;
+}
+
+.copyright {
+    font-size: 0.9rem;
+}
