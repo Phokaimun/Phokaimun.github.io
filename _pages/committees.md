@@ -1,8 +1,10 @@
 ---
 title: "Committees"
 permalink: /committees/
-layout: single
-classes: wide
+layout: splash
+header:
+  overlay_image: /assets/images/background.jpg
+  overlay_filter: 0.6
 
 gallery:
   - url: https://ziyacu.github.io/Phokaimun.github.io/
