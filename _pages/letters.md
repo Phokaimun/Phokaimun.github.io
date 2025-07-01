@@ -5,11 +5,11 @@ layout: single
 
 gallery:
   - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/delegate.webp
-    alt: "delegate"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/chairboard.webp
+    image_path: /assets/images/chairboard.jpeg
     alt: "chairboard"
+  - url: https://ziyacu.github.io/Phokaimun.github.io/
+    image_path: /assets/images/admin.jpeg
+    alt: "admin"
 ---
 
 {% include gallery layout="third" %}
