@@ -160,7 +160,7 @@ ul {
 .content-section {
     max-width: 900px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.95); /* Yarı saydam beyaz */
+    background-color: rgba(255, 255, 255, 0.7); /* Yarı saydam beyaz */
     color: var(--text-dark); /* Kart içindeki metinler koyu renk */
     padding: 2rem;
     border-radius: 12px;
