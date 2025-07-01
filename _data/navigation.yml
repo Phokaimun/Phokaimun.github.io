@@ -10,4 +10,10 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  - title: "Apply"
+    url: /apply/
+  - title: "Committees"
+    url: /committees/
+  - title: "Letters"
+    url: /letters/
   - title: "#sealed"
