@@ -9,12 +9,13 @@ header:
 
 
 gallery:
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/chairboard.jpeg
-    alt: "chairboard"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/admin.jpeg
-    alt: "admin"
+  - image_path: /assets/images/security.jpeg
+    alt: "security"
+    title: ""Security""
+    excerpt: "Apply For SECURITY"
+    url: "#"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include gallery layout="third" %}
