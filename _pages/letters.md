@@ -12,6 +12,11 @@ feature_row:
   - image_path: /assets/images/security.jpeg
     alt: "security"
     url: "https://ziyacu.github.io/Phokaimun.github.io"
+    
+gallery:
+  - image_path: /assets/images/security.jpeg
+    alt: "security"
+    url: "https://ziyacu.github.io/Phokaimun.github.io"
 ---
 
 {% include feature_row %}
