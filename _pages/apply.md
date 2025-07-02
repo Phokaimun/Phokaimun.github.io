@@ -28,6 +28,14 @@ gallery:
   - url: https://ziyacu.github.io/Phokaimun.github.io/
     image_path: /assets/images/security.jpeg
     alt: "security"
+
+feature_row:
+  - image_path: /assets/images/security.jpeg
+    alt: "security"
+    title: ""Security""
+    excerpt: "Apply For SECURITY"
 ---
+
+{% include feature_row %}
 
 {% include gallery layout="third" %}
