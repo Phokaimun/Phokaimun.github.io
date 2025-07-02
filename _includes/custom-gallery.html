@@ -1,0 +1,12 @@
+<div class="custom-gallery-grid">
+  {% for image in page.gallery %}
+    <div class="image-with-text">
+      <a href="{{ image.url }}">
+        <img src="{{ image.image_path }}" alt="{{ image.title }}">
+        <div class="image-text">
+          {{ image.title }}
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
