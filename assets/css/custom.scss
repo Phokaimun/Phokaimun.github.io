@@ -94,8 +94,7 @@ body {
 /* Resmin kendisi için stiller */
 .image-with-text img {
   display: block; /* Altındaki gereksiz boşluğu kaldırır */
-  width: 100%;
-  height: auto;
+  max-width: 30%;
   object-fit: cover; /* Resmin kutuya tam sığmasını sağlar */
   transition: transform 0.3s ease; /* Üzerine gelince büyüme efekti için */
 }
