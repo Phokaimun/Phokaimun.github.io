@@ -79,7 +79,7 @@ body {
 /* 3 sütunlu ızgara (grid) yapısı */
 .custom-gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 30%);
   gap: 1rem; /* Resimler arası boşluk */
   margin: 2em 0;
 }
