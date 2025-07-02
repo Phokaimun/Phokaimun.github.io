@@ -11,11 +11,7 @@ header:
 feature_row:
   - image_path: /assets/images/security.jpeg
     alt: "security"
-    title: "Security"
-    excerpt: "Apply For SECURITY"
-    url: "#"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    url: "https://ziyacu.github.io/Phokaimun.github.io"
 ---
 
-{% include feature_row layout="half" %}
+{% include feature_row %}
