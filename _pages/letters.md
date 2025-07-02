@@ -11,27 +11,27 @@ gallery:
   - url: https://ziyacu.github.io/Phokaimun.github.io/
     image_path: /Phokaimun.github.io/assets/images/delegate.webp
     alt: "delegate"
-    excerpt: "**NATO**"
+    excerpt: "<strong>NATO</strong>"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
     image_path: /Phokaimun.github.io/assets/images/chairboard.jpeg
     alt: "chairboard"
-    excerpt: "**UNWOMEN**"
+    excerpt: "<strong>UNWOMEN</strong>"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
     image_path: /Phokaimun.github.io/assets/images/delegation.webp
     alt: "delegation"
-    excerpt: "**UNHCR**"
+    excerpt: "<strong>UNHCR</strong>"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
     image_path: /Phokaimun.github.io/assets/images/admin.jpeg
     alt: "admin"
-    excerpt: "**ECOSOC**"
+    excerpt: "<strong>ECOSOC</strong>"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
     image_path: /Phokaimun.github.io/assets/images/press.jpeg
     alt: "press"
-    excerpt: "**UNSC**"
+    excerpt: "<strong>UNSC</strong>"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
     image_path: /Phokaimun.github.io/assets/images/security.jpeg
     alt: "security"
-    excerpt: "**CRISIS**"
+    excerpt: "<strong>CRISIS</strong>"
 ---
 
 {% include custom-gallery.html %}
