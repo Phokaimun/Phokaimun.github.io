@@ -11,7 +11,7 @@ header:
 gallery:
   - image_path: /assets/images/security.jpeg
     alt: "security"
-    title: ""Security""
+    title: "Security"
     excerpt: "Apply For SECURITY"
     url: "#"
     btn_label: "Read More"
