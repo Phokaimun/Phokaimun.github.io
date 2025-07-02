@@ -2,7 +2,7 @@
   {% for image in page.gallery %}
     <div class="image-with-text">
       <a href="{{ image.url }}">
-        <img src="{{ image.image_path }}" alt="{{ image.title }}">
+        <img src="{{ image.image_path }}" alt="{{ image.alt }}">
         <div class="image-text">
           {{ image.alt }}
         </div>
