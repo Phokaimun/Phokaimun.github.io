@@ -94,8 +94,9 @@ body {
 /* Resmin kendisi için stiller (DÜZELTİLMİŞ HALİ) */
 .image-with-text img {
   display: block;
-  width: 30%;
-  height: auto; /* Resmin en-boy oranını koru */
+  width: 30% !important;
+  max-width: 30% !important;
+  height: 30% !important; /* Resmin en-boy oranını koru */
   transition: transform 0.3s ease;
 }
 
