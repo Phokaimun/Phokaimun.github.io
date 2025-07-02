@@ -56,3 +56,21 @@ body {
 .social-icons .fa-instagram::before{
     color: #7df7ff !important;
 }
+
+.image-text {
+  position: absolute;
+  bottom: 0; /* Alt kenara yapıştır */
+  left: 0;   /* Sol kenara yapıştır */
+  
+  /* Köşeden boşluk bırakmak için padding ekleyelim */
+  padding: 1em;
+
+  color: white;
+  font-size: 1.5em; /* Yazıyı biraz küçültebiliriz */
+  font-weight: bold;
+  text-align: left; /* Yazıyı sola yasla */
+  
+  /* İsteğe bağlı: Yazının arka planı tüm genişliği kaplamasın */
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%; /* Arka planın tüm genişliği kaplaması için */
+}
