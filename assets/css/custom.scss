@@ -86,20 +86,20 @@ body {
 
 /* Her bir resim kartının kapsayıcısı */
 .image-with-text {
-  position: relative; /* İçindeki yazının konumlandırılması için gerekli */
-  overflow: hidden; /* Taşan kısımları gizle */
-  border-radius: 8px; /* İsteğe bağlı: Köşeleri yuvarlat */
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
-/* Resmin kendisi için stiller */
+/* Resmin kendisi için stiller (DÜZELTİLMİŞ HALİ) */
 .image-with-text img {
-  display: block; /* Altındaki gereksiz boşluğu kaldırır */
-  width: 30%;
-  object-fit: cover; /* Resmin kutuya tam sığmasını sağlar */
-  transition: transform 0.3s ease; /* Üzerine gelince büyüme efekti için */
+  display: block;
+  width: 100%;
+  height: auto; /* Resmin en-boy oranını koru */
+  transition: transform 0.3s ease;
 }
 
-/* Resmin üzerine gelince hafifçe büyüme efekti (isteğe bağlı) */
+/* Resmin üzerine gelince hafifçe büyüme efekti */
 .image-with-text:hover img {
   transform: scale(1.05);
 }
@@ -109,14 +109,10 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%; /* Tüm genişliği kapla */
-  
-  /* Görünüm ayarları */
+  width: 100%;
   color: white;
   font-weight: bold;
-  text-align: left; /* Yazıyı sola yasla */
-  
-  /* Arka plan ve boşluk */
+  text-align: left;
   background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
-  padding: 2em 1em 1em 1em; /* Üst, Sağ, Alt, Sol boşluk */
+  padding: 2em 1em 1em 1em;
 }
