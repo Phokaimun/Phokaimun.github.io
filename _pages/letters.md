@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.4"
 
 
-gallery:
+feature_row:
   - image_path: /assets/images/security.jpeg
     alt: "security"
     title: "Security"
@@ -18,4 +18,4 @@ gallery:
     btn_class: "btn--primary"
 ---
 
-{% include gallery layout="third" %}
+{% include feature_row layout="half" %}
