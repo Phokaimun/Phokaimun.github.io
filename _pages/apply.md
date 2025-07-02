@@ -12,6 +12,7 @@ gallery:
   - url: https://ziyacu.github.io/Phokaimun.github.io/
     image_path: /assets/images/delegate.webp
     alt: "delegate"
+    caption: "Apply For DELEGATE"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
     image_path: /assets/images/chairboard.jpeg
     alt: "chairboard"
