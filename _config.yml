@@ -327,8 +327,10 @@ defaults:
 
 
 # Scripts
-head_scripts:
-  - /assets/css/custom.scss
+#head_scripts:
+#  - /assets/css/custom.scss
+stylesheets:
+  - "/assets/css/custom.css"
 
 # Site Background
 background-image: "/assets/images/background.jpg"
