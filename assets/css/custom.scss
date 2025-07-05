@@ -114,3 +114,69 @@ body {
   background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
   padding: 2em 1em 1em 1em;
 }
+
+
+/* Ana kapsayıcı: İki sütunlu grid yapısı */
+.letter-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* İki eşit genişlikte sütun */
+  gap: 3rem; /* Sütunlar arası boşluk */
+  margin-top: 2rem;
+}
+
+/* Her bir mektup sütunu */
+.letter-column {
+  /* Bu alan şimdilik boş, gerekirse stil eklenebilir */
+}
+
+/* Resim ve ismin olduğu üst başlık bölümü */
+.letter-header {
+  display: flex;
+  align-items: center; /* Dikeyde ortala */
+  gap: 1.5rem; /* Resim ve yazı arası boşluk */
+  margin-bottom: 1.5rem;
+}
+
+/* Profil fotoğrafı stilleri */
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Resmi yuvarlak yapar */
+  object-fit: cover; /* Resmin orantısını bozmadan kutuya sığdırır */
+  border: 3px solid #ddd;
+}
+
+/* İsim ve başlığın olduğu div */
+.person-details {
+  /* Bu alan şimdilik boş */
+}
+
+/* Kişi ismi */
+.person-name {
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+/* Kişi unvanı/başlığı */
+.person-title {
+  margin: 0;
+  font-size: 1.2em;
+  color: #777;
+  font-style: italic;
+}
+
+/* Mektup metninin olduğu bölüm */
+.letter-body p {
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Mobil Cihazlar için Ayar */
+/* Ekran genişliği 768px'den küçük olduğunda sütunlar alt alta gelsin */
+@media (max-width: 768px) {
+  .letter-container {
+    grid-template-columns: 1fr; /* Sadece bir sütun olsun */
+    gap: 4rem; /* Alt alta geldiklerinde aradaki boşluk artsın */
+  }
+}
