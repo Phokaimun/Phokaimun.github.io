@@ -9,25 +9,29 @@ header:
 
 gallery:
   - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/delegate.jpeg
+    image_path: /Phokaimun.github.io/assets/images/delegate.jpeg
     alt: "delegate"
-    caption: "Apply For DELEGATE"
+    excerpt: "Apply For <strong>DELEGATE</strong>"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/chairboard.jpeg
+    image_path: /Phokaimun.github.io/assets/images/chairboard.jpeg
     alt: "chairboard"
+    excerpt: "Apply For <strong>CHAIRBOARD</strong>"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/delegation.jpeg
+    image_path: /Phokaimun.github.io/assets/images/delegation.jpeg
     alt: "delegation"
+    excerpt: "Apply For <strong>DELEGATION</strong>"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/admin.jpeg
+    image_path: /Phokaimun.github.io/assets/images/admin.jpeg
     alt: "admin"
+    excerpt: "Apply For <strong>ADMIN</strong>"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/press.jpeg
+    image_path: /Phokaimun.github.io/assets/images/press.jpeg
     alt: "press"
+    excerpt: "Apply For <strong>PRESS</strong>"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/security.jpeg
+    image_path: /Phokaimun.github.io/assets/images/security.jpeg
     alt: "security"
-
+    excerpt: "Apply For <strong>SECURITY</strong>"
 ---
 
-{% include gallery layout="third" %}
+{% include custom-gallery.html %}
