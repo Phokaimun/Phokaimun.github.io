@@ -31,7 +31,7 @@ persons:
 ---
 
 <div class="letter-container">
-  {% for person in persons %}
+  {% for person in page.persons %}
     <div class="letter-column">
       <div class="letter-header">
         <img src="{{ person.image_path }}" alt="{{ person.name }}" class="profile-image">
