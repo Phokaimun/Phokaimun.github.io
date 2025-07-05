@@ -78,12 +78,24 @@ body {
 }
 /* --- Custom Gallery Styles --- */
 
-/* 3 sütunlu ızgara (grid) yapısı */
+
 .custom-gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(1px, 1fr));
-  gap: 1rem;
+  
+  /* VARSAYILAN (Masaüstü ve geniş tabletler için): 3 eşit sütun */
+  grid-template-columns: repeat(3, 1fr);
+  
+  gap: 1.5rem; /* Sütunlar ve satırlar arası boşluk */
   margin: 2em 0;
+}
+
+/* EKRAN 768px VEYA DAHA DARSA (Mobil ve dikey tabletler için) */
+@media (max-width: 768px) {
+  .custom-gallery-grid {
+    /* Bu kurallar sadece dar ekranlarda geçerli olacak */
+    grid-template-columns: 1fr; /* Sütun sayısını 1'e düşür */
+    gap: 2rem; /* Alt alta geldiklerinde dikey boşluk biraz daha fazla olabilir */
+  }
 }
 
 .image-with-text {
