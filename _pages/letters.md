@@ -34,7 +34,7 @@ persons:
   {% for person in page.persons %}
     <div class="letter-column">
       <div class="letter-header">
-        <img src="{{ person.image_path }}" alt="{{ person.name }}" class="profile-image">
+        <img src="{{ person.image_path | relative_url }}" alt="{{ person.name }}" class="profile-image">
         <div class="person-details">
           <h3 class="person-name">{{ person.name }}</h3>
           <p class="person-title">{{ person.title }}</p>
