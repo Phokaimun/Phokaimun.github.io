@@ -9,14 +9,14 @@ header:
 
 gallery:
   - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/delegate.webp
+    image_path: /assets/images/delegate.jpeg
     alt: "delegate"
     caption: "Apply For DELEGATE"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
     image_path: /assets/images/chairboard.jpeg
     alt: "chairboard"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/delegation.webp
+    image_path: /assets/images/delegation.jpeg
     alt: "delegation"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
     image_path: /assets/images/admin.jpeg
