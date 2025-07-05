@@ -8,30 +8,30 @@ header:
   overlay_filter: "0.4"
 
 gallery:
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/delegate.jpeg
+  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
+    image_path: /Phokaimun.github.io/assets/images/delegate.jpeg
     alt: "delegate"
-    excerpt: "**NATO**"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/chairboard.jpeg
+    excerpt: "<strong>NATO</strong>"
+  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
+    image_path: /Phokaimun.github.io/assets/images/chairboard.jpeg
     alt: "chairboard"
-    excerpt: "**UNWOMEN**"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/delegation.jpeg
+    excerpt: "<strong>UNWOMEN</strong>"
+  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
+    image_path: /Phokaimun.github.io/assets/images/delegation.jpeg
     alt: "delegation"
-    excerpt: "**UNHCR**"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/admin.jpeg
+    excerpt: "<strong>UNHCR</strong>"
+  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
+    image_path: /Phokaimun.github.io/assets/images/admin.jpeg
     alt: "admin"
-    excerpt: "**ECOSOC**"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/press.jpeg
+    excerpt: "<strong>ECOSOC</strong>"
+  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
+    image_path: /Phokaimun.github.io/assets/images/press.jpeg
     alt: "press"
-    excerpt: "**UNSC**"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/security.jpeg
+    excerpt: "<strong>UNSC</strong>"
+  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
+    image_path: /Phokaimun.github.io/assets/images/security.jpeg
     alt: "security"
-    excerpt: "**CRISIS**"
+    excerpt: "<strong>CRISIS</strong>"
 ---
 
-{% include gallery layout="third" %}
+{% include custom-gallery.html %}
