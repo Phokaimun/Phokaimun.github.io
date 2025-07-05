@@ -7,31 +7,25 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.4"
 
-gallery:
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /Phokaimun.github.io/assets/images/delegate.jpeg
-    alt: "delegate"
-    excerpt: "<strong>NATO</strong>"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /Phokaimun.github.io/assets/images/chairboard.jpeg
-    alt: "chairboard"
-    excerpt: "<strong>UNWOMEN</strong>"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /Phokaimun.github.io/assets/images/delegation.jpeg
-    alt: "delegation"
-    excerpt: "<strong>UNHCR</strong>"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /Phokaimun.github.io/assets/images/admin.jpeg
-    alt: "admin"
-    excerpt: "<strong>ECOSOC</strong>"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /Phokaimun.github.io/assets/images/press.jpeg
-    alt: "press"
-    excerpt: "<strong>UNSC</strong>"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /Phokaimun.github.io/assets/images/security.jpeg
-    alt: "security"
-    excerpt: "<strong>CRISIS</strong>"
 ---
 
-{% include custom-gallery.html %}
+<h2 class="text-center" style="font-family: serif; font-style: italic; color: #888;">from our executive team</h2>
+
+<hr>
+
+<div class="letter-container">
+  {% for person in site.data.letters %}
+    <div class="letter-column">
+      <div class="letter-header">
+        <img src="{{ person.image_path }}" alt="{{ person.name }}" class="profile-image">
+        <div class="person-details">
+          <h3 class="person-name">{{ person.name }}</h3>
+          <p class="person-title">{{ person.title }}</p>
+        </div>
+      </div>
+      <div class="letter-body">
+        {{ person.letter_html | markdownify }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
