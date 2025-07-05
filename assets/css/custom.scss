@@ -84,25 +84,23 @@ body {
   margin: 2em 0;
 }
 
-/* Her bir resim kartının kapsayıcısı */
 .image-with-text {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
 }
 
-/* Resmin kendisi için stiller (DÜZELTİLMİŞ HALİ) */
 .image-with-text img {
   display: block;
+  width: 100%;
+  height: auto;
   transition: transform 0.3s ease;
 }
 
-/* Resmin üzerine gelince hafifçe büyüme efekti */
 .image-with-text:hover img {
   transform: scale(1.05);
 }
 
-/* Resmin üzerindeki yazı için stiller */
 .image-text {
   position: absolute;
   bottom: 0;
