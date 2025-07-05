@@ -9,7 +9,7 @@ header:
 
 gallery:
   - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/delegate.webp
+    image_path: /assets/images/delegate.jpeg
     alt: "delegate"
     excerpt: "**NATO**"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
@@ -17,7 +17,7 @@ gallery:
     alt: "chairboard"
     excerpt: "**UNWOMEN**"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
-    image_path: /assets/images/delegation.webp
+    image_path: /assets/images/delegation.jpeg
     alt: "delegation"
     excerpt: "**UNHCR**"
   - url: https://ziyacu.github.io/Phokaimun.github.io/
