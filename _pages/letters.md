@@ -9,10 +9,6 @@ header:
 
 ---
 
-<h2 class="text-center" style="font-family: serif; font-style: italic; color: #888;">from our executive team</h2>
-
-<hr>
-
 <div class="letter-container">
   {% for person in site.data.letters %}
     <div class="letter-column">
