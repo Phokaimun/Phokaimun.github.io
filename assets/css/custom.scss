@@ -79,8 +79,8 @@ body {
 /* 3 sütunlu ızgara (grid) yapısı */
 .custom-gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, 30%);
-  gap: 1rem; /* Resimler arası boşluk */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
   margin: 2em 0;
 }
 
@@ -94,9 +94,6 @@ body {
 /* Resmin kendisi için stiller (DÜZELTİLMİŞ HALİ) */
 .image-with-text img {
   display: block;
-  width: 30% !important;
-  max-width: 30% !important;
-  height: 30% !important; /* Resmin en-boy oranını koru */
   transition: transform 0.3s ease;
 }
 
