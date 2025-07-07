@@ -2,10 +2,6 @@
 title: "Apply"
 permalink: /apply/
 layout: splash
-header:
-  overlay_image: /assets/images/background.jpg
-  overlay_color: "#000"
-  overlay_filter: "0.4"
 
 gallery:
   - url: https://forms.gle/mXEeVMVpt6ywqKAy5
