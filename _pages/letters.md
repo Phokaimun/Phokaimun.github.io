@@ -24,9 +24,9 @@ persons:
     title: "Director General"
     image_path: /assets/images/ece.jpeg
     letter_html: |
-      <p>welcome you to PHOKAIMUN'25.</p>
+      <p>Welcome you to PHOKAIMUN'25.</p>
       <p>Over the past months, our team has worked tirelessly to bring this conference to life. Countless hours of planning, drafting, and organizing have gone into every detail to ensure that your experience here is not only educational, but also meaningful, inspiring, and enjoyable.</p>
-      <p>We truly hope you feel the dedication behind this event, and that you leave with new friendships, valuable memories, and a deeper understanding of the world around you. It has been our honor to prepare this platform for passionate, thoughtful debate — and now, it’s your turn to bring it to life.</p>
+      <p>We truly hope you feel the dedication behind this event, and that you leave with new friendships, valuable memories, and a deeper understanding of the world around you. It has been our honor to prepare this platform for passionate, thoughtful debate. And now, it’s your turn to bring it to life.</p>
       <p>Yours sincerely,<br><strong>Ece Ertaş</strong><br><em>Director General</em></p>
 ---
 
