@@ -2,6 +2,8 @@
 title: "Apply"
 permalink: /apply/
 layout: splash
+header:
+  overlay_color: "rgba(0, 0, 0, 0.4)"
 
 gallery:
   - url: https://forms.gle/mXEeVMVpt6ywqKAy5
