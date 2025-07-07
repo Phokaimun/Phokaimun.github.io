@@ -8,26 +8,26 @@ header:
   overlay_filter: "0.4"
 
 persons:
-  - name: "Ege Kağan Güncan"
+  - name: "Duru Söylemezoğlu"
     title: "Secretary General"
     image_path: /assets/images/press.jpeg
     letter_html: |
-      <p>Dear Delegates, Organizing Team, and Academic Team Candidates,</p>
-      <p>It is my great pleasure and honor to extend to you a warm greeting to the First Annual Session of the Çağlı Model United Nations.</p>
-      <p>As Secretary General, I am delighted to welcome each of you to what promises to be an inspiring and enriching experience...</p>
-      <p>Whether you are applying as a delegate, an academic team member, or part of the organization, your role will be instrumental in shaping the success and spirit of CMUN. I look forward to witnessing your passion, ideas, and leadership as we come together to tackle global challenges through dialogue and diplomacy.</p>
-      <p>Join us in making history at our inaugural session, where every voice matters and every perspective counts.</p>
-      <p>Yours sincerely,<br><strong>Ege Kağan Güncan</strong><br><em>Secretary General</em></p>
+      <p>Dear Delegates, Organization Team, and Academic Team Candidates,</p>
+      <p>It is my biggest pleasure to welcome you all to PHOKAIMUN'25.</p>
+      <p>As the Secretary General of the First Official Session of PHOKAIMUN'25.</p>
+      <p>With my dearest exec members we have worked so hard nearly a year. I'm really excited to announce this prestigious conference.</p>
+      <p>Our aim was to achieve something that we would be proud when we looked back. What I want from this conference is to give the best memories to our dear academic team and our esteemed delegates.</p>
+      <p>I'm looking forward to see you all in PHOKAIMUN'25.</p>
+      <p>Yours sincerely,<br><strong>Duru Söylemezoğlu</strong><br><em>Secretary General</em></p>
 
-  - name: "Duru Söylemezoğlu"
+  - name: "Ece Ertaş"
     title: "Director General"
     image_path: /assets/images/press.jpeg
     letter_html: |
-      <p>Hello everyone,</p>
-      <p>My name is Duru Söylemezoğlu. As a member of the executive team of the First Official Session of Çağlı Model United Nations, I would like to express how pleased I am to welcome you all in advance. I hope to see everyone at this conference, which will take shape with your valuable participation and support.</p>
-      <p>Our executive team, composed of students from various schools, shares a common goal: to organize a conference in Çağlı and to make it accessible to a wide student audience.</p>
-      <p>What distinguishes this conference from previous ones is the effort and care put into every step of the preparation process. With a strong sense of responsibility and a well-structured task distribution, our main goal is to ensure that participants feel satisfied and happy in every aspect of the event.</p>
-      <p>Yours sincerely,<br><strong>Duru Söylemezoğlu</strong><br><em>Director General</em></p>
+      <p>welcome you to PHOKAIMUN'25.</p>
+      <p>Over the past months, our team has worked tirelessly to bring this conference to life. Countless hours of planning, drafting, and organizing have gone into every detail to ensure that your experience here is not only educational, but also meaningful, inspiring, and enjoyable.</p>
+      <p>We truly hope you feel the dedication behind this event, and that you leave with new friendships, valuable memories, and a deeper understanding of the world around you. It has been our honor to prepare this platform for passionate, thoughtful debate — and now, it’s your turn to bring it to life.</p>
+      <p>Yours sincerely,<br><strong>Ece Ertaş</strong><br><em>Director General</em></p>
 ---
 
 <div class="letter-container">
