@@ -8,23 +8,23 @@ header:
   overlay_filter: "0.4"
 
 gallery:
-  - image_path: /Phokaimun.github.io/assets/images/delegate.jpeg
-    alt: "delegate"
+  - image_path: /Phokaimun.github.io/assets/images/nato.jpeg
+    alt: "NATO"
     excerpt: "<strong>NATO</strong>"
-  - image_path: /Phokaimun.github.io/assets/images/chairboard.jpeg
-    alt: "chairboard"
+  - image_path: /Phokaimun.github.io/assets/images/unwomen.jpeg
+    alt: "UNWOMEN"
     excerpt: "<strong>UNWOMEN</strong>"
-  - image_path: /Phokaimun.github.io/assets/images/delegation.jpeg
-    alt: "delegation"
+  - image_path: /Phokaimun.github.io/assets/images/unhcr.jpeg
+    alt: "UNHCR"
     excerpt: "<strong>UNHCR</strong>"
-  - image_path: /Phokaimun.github.io/assets/images/admin.jpeg
-    alt: "admin"
+  - image_path: /Phokaimun.github.io/assets/images/ecosoc.jpeg
+    alt: "ECOSOC"
     excerpt: "<strong>ECOSOC</strong>"
-  - image_path: /Phokaimun.github.io/assets/images/press.jpeg
-    alt: "press"
+  - image_path: /Phokaimun.github.io/assets/images/unsc.jpeg
+    alt: "UNSC"
     excerpt: "<strong>UNSC</strong>"
-  - image_path: /Phokaimun.github.io/assets/images/security.jpeg
-    alt: "security"
+  - image_path: /Phokaimun.github.io/assets/images/crisis.jpeg
+    alt: "CRISIS"
     excerpt: "<strong>CRISIS</strong>"
 ---
 
