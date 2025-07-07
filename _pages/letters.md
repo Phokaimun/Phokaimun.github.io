@@ -10,7 +10,7 @@ header:
 persons:
   - name: "Duru Söylemezoğlu"
     title: "Secretary General"
-    image_path: /assets/images/press.jpeg
+    image_path: /assets/images/duru.jpeg
     letter_html: |
       <p>Dear Delegates, Organization Team, and Academic Team Candidates,</p>
       <p>It is my biggest pleasure to welcome you all to PHOKAIMUN'25.</p>
@@ -22,7 +22,7 @@ persons:
 
   - name: "Ece Ertaş"
     title: "Director General"
-    image_path: /assets/images/press.jpeg
+    image_path: /assets/images/ece.jpeg
     letter_html: |
       <p>welcome you to PHOKAIMUN'25.</p>
       <p>Over the past months, our team has worked tirelessly to bring this conference to life. Countless hours of planning, drafting, and organizing have gone into every detail to ensure that your experience here is not only educational, but also meaningful, inspiring, and enjoyable.</p>
