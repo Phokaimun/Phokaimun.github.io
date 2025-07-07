@@ -8,28 +8,22 @@ header:
   overlay_filter: "0.4"
 
 gallery:
-  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
-    image_path: /Phokaimun.github.io/assets/images/delegate.jpeg
+  - image_path: /Phokaimun.github.io/assets/images/delegate.jpeg
     alt: "delegate"
     excerpt: "<strong>NATO</strong>"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
-    image_path: /Phokaimun.github.io/assets/images/chairboard.jpeg
+  - image_path: /Phokaimun.github.io/assets/images/chairboard.jpeg
     alt: "chairboard"
     excerpt: "<strong>UNWOMEN</strong>"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
-    image_path: /Phokaimun.github.io/assets/images/delegation.jpeg
+  - image_path: /Phokaimun.github.io/assets/images/delegation.jpeg
     alt: "delegation"
     excerpt: "<strong>UNHCR</strong>"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
-    image_path: /Phokaimun.github.io/assets/images/admin.jpeg
+  - image_path: /Phokaimun.github.io/assets/images/admin.jpeg
     alt: "admin"
     excerpt: "<strong>ECOSOC</strong>"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
-    image_path: /Phokaimun.github.io/assets/images/press.jpeg
+  - image_path: /Phokaimun.github.io/assets/images/press.jpeg
     alt: "press"
     excerpt: "<strong>UNSC</strong>"
-  - url: https://ziyacu.github.io/Phokaimun.github.io/committees/
-    image_path: /Phokaimun.github.io/assets/images/security.jpeg
+  - image_path: /Phokaimun.github.io/assets/images/security.jpeg
     alt: "security"
     excerpt: "<strong>CRISIS</strong>"
 ---
