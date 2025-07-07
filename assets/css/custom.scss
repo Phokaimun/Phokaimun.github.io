@@ -134,13 +134,13 @@ body {
   grid-template-columns: 1fr 1fr; /* İki eşit genişlikte sütun */
   gap: 3rem; /* Sütunlar arası boşluk */
   margin-top: 2rem;
-  background-color: #fff;
-  padding: 20px;
 }
 
 /* Her bir mektup sütunu */
 .letter-column {
   /* Bu alan şimdilik boş, gerekirse stil eklenebilir */
+  background-color: #fff;
+  padding: 20px;
 }
 
 /* Resim ve ismin olduğu üst başlık bölümü */
