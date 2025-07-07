@@ -3,9 +3,7 @@ title: "Letters"
 permalink: /letters/
 layout: splash
 header:
-  overlay_image: /assets/images/background.jpg
-  overlay_color: "#000"
-  overlay_filter: "0.4"
+  overlay_color: "rgba(0, 0, 0, 0.5)"
 
 persons:
   - name: "Duru Söylemezoğlu"
